@@ -1,5 +1,5 @@
 ## between.js
-between.js is a script that determines if a ```Number``` ( or a type that evaluates to a ```Number``` ) is between two other numbers.
+between.js is a script that determines if a ```Number``` ( or a type that evaluates to ```Number``` ) is between two other numbers.
 
 ## Usage
 ```javascript
@@ -11,36 +11,40 @@ mynum.between(4, 8, True) // True
 ```
 
 ## Function Reference
+Direct function call:
 ```javascript
- between(input, low_value, high_value, or_equal_to = false)
+between(i, l, h, e = false)
 ```
+Prototype method:
 ```javascript
-(input).between(low_value, high_value, or_equal_to = false)
+(input).between(i, l, h, e = false)
 ```
 
 ## Arguments
 
-* ### ```input```   
+* ### ```i```
 
     <code><b>type:</b> Number, Date</code>  
 
-    The input value.
+    **Input** value.
 
-* ### ```low_value```   
+* ### ```l```   
 
     <code><b>type:</b> Number, Date</code>  
 
+    **Low** value.  
     The lower end of the range to compare against.
 
-* ### ```high_value```   
+* ### ```h```   
 
     <code><b>type:</b> Number, Date</code>  
 
+    **High** value.  
     The higher end of the range to compare against.
 
-* ### ```or_equal_to```   
+* ### ```e```   
 
     <code><b>type:</b> Boolean</code>  
 
-    If ```True```, the range compared against includes the ```low_value``` and
-    the ```high_value```.
+    Or **equal** to.  
+    If ```True```, the range compared against includes ```l``` and ```h```.

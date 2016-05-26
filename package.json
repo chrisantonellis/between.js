@@ -1,0 +1,35 @@
+{
+  "name": "between.js",
+  "version": "1.0.0",
+  "description": "between.js is a script that determines if a Number ( or a type that evaluates to Number ) is between two other numbers.",
+  "keywords": [
+    "between",
+    "number",
+    "date"
+  ],
+  "main": "between.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisantonellis/between.js.git"
+  },
+  "author": {
+    "name": "Chris Antonellis",
+    "email": "christopher.antonellis@gmail.com",
+    "url": "http://www.chrisantonellis.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisantonellis/between.js/issues"
+  },
+  "homepage": "https://github.com/chrisantonellis/between.js#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
