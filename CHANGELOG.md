@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.  
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [To Do]
+- Node require / export
+- RequireJS require / define
+- Get mocha tests running again
+- update docs for node / require / mocha
+- update package.json and get module onto NPM
+
 ## [Unreleased]
 ### Added
 ### Removed

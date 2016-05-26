@@ -1,6 +1,5 @@
 
 var assert = require('chai').assert;
-
 require('../between.js');
 
 describe('between(Number, Number, Number)', function() {
